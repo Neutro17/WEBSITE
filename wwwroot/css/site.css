@@ -1,1 +1,180 @@
+*{
+
+	padding: 0px;
+	margin: 0px;
+}
+
+.h1{
+    color: #d98825;
+}
+
+#logo {
+        width:50%;
+        height:50%;
+}
+
+#externa{
+          width: 100%;
+          height: 50px;
+          background: #d98825;
+          display: table;
+        }
+
+#interna{
+         text-align: center;
+         vertical-align: middle;
+         display: table-cell; }
+
+         #extend{
+         text-align: center;
+         vertical-align: middle;
+         }
+
+.panel-heading{
+    font-size:150%;
+}
+
+.a {
+   text-decoration: none;
+   color: black;
+
+}
+
+div.box {
+  width: 150px;
+  display: inline-block;
+}
+
+body {
+	font-family: arial;
+}
+
+ul{
+
+	list-style: none;
+}
+
+img{
+   width: 40px;
+}
+
+input[type="checkbox"]{ 
+display: none;
+ }
+
+nav{
+	  background-color: rgba(16,16,16,.5); 
+    height: 600px;
+    left: -350px;
+    width: 350px;
+    position: absolute;
+    }
+
+    input[type="checkbox"]:checked ~ nav
+    {
+    	transform: translateX(350px);
+    }
+
+    ul{
+    	top: 70px;
+    	position: absolute;
+    	width: 100%;
+    }
+
+.a{
+	display: block;
+	padding: 20px 5px; 
+	color: white;
+  }
+
+  .a:hover{
+  	background-color: rgb(176,224,230);
+  	color: black; 
+  }
+
+  label{
+  	 padding: 15px;
+  	 position: absolute;
+  	 z-index: 1; 
+  }
+
+  .Borda{
+    position: relative;
+    border-color: #FD2D2B; 
+    background: #FD2D2B; 
+    width:20% ;
+    top: 60px;
+  }
+
+  .layou1{
+            position: absolute;
+            background: #d12424; 
+            width: 100%;
+            height: 230px;
+            top: 90px;
+
+          }
+           
+   .layou2{
+            position: absolute;
+            background: #d98825; 
+            width: 100%;
+            height: 50px;
+            top: 300px
+           }
+
+   .layou3{
+            position: absolute;
+            background: #f2d83f; 
+            width: 100%;
+            height: 290px;
+            top: 350px;
+           }
+
+    .layou4{
+            position: absolute;
+            background: #f22727; 
+            border-color:#002643; 
+            width: 100%;
+            height: 55px;
+            top: 640px;
+           }
+
+    .nav-item::after{
+    content:'';
+    display:block;
+    width:0px;
+    height:4px;
+    background:#ff0000;
+    transition: 0.2s;
+    margin-top:-10px;
+}
+
+      .nav-item:hover::after{width:100%;}
+
+
+      .nav-link{padding:15px 5px;transition:0.2s;}
+
+      .navbar-nav .nav-link {
+          
+          color:#000;
+          font-weight:bold;
+          font-size:18px;
+      }
+
+      .navbar-nav .active > .nav-link{
+        
+          width:100%;
+          height:51px;
+          
+        border-bottom: .25rem solid transparent;
+        border-bottom-color: #ed4137;
+         
+      }
+
+      header{
+
+             top: 0;
+
+      }
 
