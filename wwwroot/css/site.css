@@ -193,7 +193,7 @@ nav{
       outline: 0;
       background: none;
       width: 0;
-      caret-color:transparent;
+      caret-color:white;
       line-height: 40px;
       transition: width 0.4s linear;
       }
