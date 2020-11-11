@@ -1,26 +1,10 @@
-import express = ('express')
-const app = ('express')
+const db = require("./conect");
 
-app.get("/" get(request, response)){
-
-    document.write()
-}
-
-app.post("/" post(request, response)){
-    document.write()
-}
-
-app.put("/" put(request, response)){
-
-    document.write()
-}
-
-app.delete("/" delete(request, response)){
-    document.write()
-}
-
-
-
-
-
-
+(async () => {
+    const db = require("./db");
+    console.log('Começou!');
+ 
+    console.log('SELECT * FROM CLIENTES');
+    const clientes = await db.selectCustomers();
+    console.log(clientes);
+})();
