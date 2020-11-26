@@ -15,5 +15,5 @@ This project is being developed to put into practice things that I have been lea
 Running the application: First of all, let's create a folder where this project will be, open a terminal (Cmd, PowerShell or even from Visual Studio itself), and navigate to a folder created, inside type the command "dotnet run".
 
 
-==============================================================
+========================================================================
 
